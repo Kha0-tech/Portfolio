@@ -1,0 +1,30 @@
+/*
+const skillShowFun  = (skillNmae,percent) => {
+    const skillDiv = document.createElement('div');
+    skillDiv.classList.add('skill')
+
+    const skillContentDiv = document.createElement('div') ;
+    skillContentDiv.classList.add("skill_content");
+
+    const skillSpan = document.createElement('span')
+    skillSpan.textContent = skillNmae;
+    const skillPercentSpan = document.createElement('span');
+    skillPercentSpan.textContent = `${percent}%`
+    skillContentDiv.append(skillSpan,skillPercentSpan)
+
+    const progressBarDiv = document.createElement('div')
+    progressBarDiv.classList.add('progress-bar')
+    const insideProgressBarDiv = document.createElement('div')
+    insideProgressBarDiv.classList.add('inside-progress-bar')
+    progressBarDiv.append(insideProgressBarDiv)
+    console.log('progressBarDiv => ',progressBarDiv.offsetWidth)
+    
+    const insideProgressBarStyle = (progressBarDiv.offsetWidth * percent) / 100;
+    insideProgressBarDiv.style.width = insideProgressBarStyle +'px'
+    insideProgressBarDiv.style.backgroundColor = 'red'
+    skillDiv.append(skillContentDiv,progressBarDiv)
+
+    font_end_ele.append(skillDiv)
+}
+
+*/

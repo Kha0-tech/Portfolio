@@ -1,0 +1,113 @@
+@media screen and (max-width : 876px) {
+    .nav_container{
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .menu_list_open {
+        margin-right: 20px;
+    }
+    
+    .nav_list{
+        display: none;
+    }
+    .menu_list_open{
+        display: block;
+    }
+    .menu_list_close{
+        display: block;
+        
+    }
+    .skill{
+        width: 75%;
+    }
+
+    .show_menu{
+        transition: right 0.5s ease-in-out;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;  
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(15,15,59);
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap:20px ;
+        
+    }
+}
+@media screen and (max-width :755px) {
+    .home_content_paragraph{
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width : 670px){
+    .home_grid{
+        grid-template-columns: 1fr;
+        
+    }
+
+    
+    .home_img , .home_content{
+        height: 80vh;
+    }
+    .home_img{
+        margin-top: 40px;
+    }
+    .home_content_paragraph{
+        line-height: 30px;
+        font-size: 1rem;
+    }
+    .blog_grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .blog_img{
+        width: 65%;
+    }
+    .contact{
+        grid-template-columns: 1fr;
+    }
+
+    .skill_container{
+        grid-template-columns: 1fr;
+    }
+    .font-end{
+        margin-bottom: 20px;
+    }
+    .back-end-title{
+        border-bottom: 2px solid red;
+    }
+}
+
+@media screen and (max-width : 575px){
+    .blog_grid{
+        grid-template-columns: 1fr;
+    }
+    .projects_title{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .project_left_arrow , .project_right_arrow{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width : 433px) {
+    .home_img , .home_content{
+        height: 60vh;
+    }
+    .home_content_paragraph{
+        line-height: 28px;
+        font-size: 0.8rem;
+    }
+    .contact_content{
+        font-size: 0.8rem;
+    }
+    
+}

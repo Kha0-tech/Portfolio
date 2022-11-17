@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    box-sizing: border-box;
+    background-color: rgb(15, 15, 59);
+    color: rgb(255, 255, 255);
+    /* font-family: 'Clicker Script', cursive; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*----- resuable -----------*/
+header , section , footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    font-weight: 400;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.home_img , .home_content ,.font-end,.back-end{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*=========Navigation===========*/
+
+
+.nav_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(34, 33, 97);
+    display: flex;
+    padding: 10px;
+    justify-content: space-around; 
+    
+}
+.logo{
+    width: 40px;
+}
+.nav_list{
+    display: flex;
+}
+.nav_link{
+    padding: 10px;
+    font-size: 1.2rem;
+    color: rgb(250, 250, 250);
+    
+}
+.nav_list_close{
+    display: none;
+}
+.menu_list_open{
+    display: none;
+    font-size: 2rem;
+}
+/*=================show menu===========*/
+
+
+.menu_list_close{
+    display: none;
+    font-size: 2rem;
+}
+/*============home============*/
+
+.home_img , .home_content{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.home_content_paragraph{
+    padding: 5px;
+    line-height: 35px;
+}
+.github{
+    font-size: 1.8rem;
+    padding: 5px;
+}
+.home_img img {
+    width: 70%;
+    height: auto;  
+
+}
+.home_title{
+    margin-bottom: 20px;
+}
+
+
+/*============skill========*/
+
+.font-end{
+    max-width: 100%;
+}
+.back-end{
+    
+    max-width: 100%;
+}
+.font-end ,.back-end{
+    row-gap: 20px;
+}
+.skill{
+    width: 90%;
+}
+.progress-bar{
+
+    height: 7px;
+    background-color: rgb(245, 243, 240);
+    border-radius: 2px;
+}
+.skill_content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.progress-bar-html{
+    background-color: red;
+    width: 50%;
+    border-radius:5px ;
+    height: 100%;
+}
+
+/*========Blogs==========*/
+.blogs{
+    margin-top: 50px;
+}
+.blog_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    
+}
+.blog_card{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog_img{
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.blog_see_more{
+    color: white;
+    padding: 10px;
+}
+/*----------Projects-----------*/
+.projects{
+    margin-top: 50px;
+}
+
+.project_container{
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    margin-top: 50px;
+}
+
+.project_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project_img img {
+    border: solid 2px red;
+    max-width: 60%;
+    border-radius: 20px;
+}
+
+.project_left_arrow , .project_right_arrow{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 300;
+}
+.project-left-arrow:hover,.project-right-arrow:hover{
+    opacity: 0.5;
+}
+
+.project_conut_github_link{
+    padding: 5px;
+    text-align: center;
+}
+/*=======contact us =========*/
+.contact{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.contact_input_group , .contact_content{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 20px;
+}
+/* .contact_input_group{
+    margin-top: 20px;
+
+} */
+.input-content, .textarea-message{
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: none;
+    margin-top:20px ;
+    width: 70%;
+    border-radius: 5px;
+    padding: 5px 8px;
+   
+}
+.contact_input_group{
+    position: relative;
+}
+.input-content{
+    height: 30px;
+}
+.submit-container{
+    
+    width: 70%;
+}
+.input-submit{
+    border: none;
+    outline: none;
+    
+    right: 1%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+   
+}
+.icon-group{
+    line-height: 30px;
+}
+.contact-icon{
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+.devepoer-footer{
+    text-align: center;
+    margin: 20px 0px;
+}
