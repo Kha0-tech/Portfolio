@@ -94,6 +94,9 @@
     .project_left_arrow , .project_right_arrow{
         font-size: 2.5rem;
     }
+    .inside-progress-bar{
+        width: 120px;
+    }
 }
 
 @media screen and (max-width : 433px) {
@@ -107,5 +110,7 @@
     .contact_content{
         font-size: 0.8rem;
     }
-    
+    .inside-progress-bar{
+        width: 120px;
+    }
 }

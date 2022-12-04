@@ -85,7 +85,7 @@ for(let i = 0 ;i<backendArray.length ; i++){
 
 /*----------blog ------- */
 const blogAry = [
-    {path : '../assets/img/blog_img/html.jpg', content : "html",link : 'https://en.wikipedia.org/wiki/HTML'},
+    {path : 'assets/img/blog_img/html.jpg', content : "html",link : 'https://en.wikipedia.org/wiki/HTML'},
     {path : 'assets/img/blog_img/css.jpg', content : "css" , link : 'https://en.wikipedia.org/wiki/CSS'},
     {path : 'assets/img/blog_img/js.png', content : "JavaScript", link  : 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
     {path : 'assets/img/blog_img/mongoDb.jpg', content : "MongoDb" ,link: 'https://www.mongodb.com/'},

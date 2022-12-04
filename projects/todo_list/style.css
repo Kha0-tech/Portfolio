@@ -16,8 +16,11 @@ body{
     align-items: center;
     position: relative;
     
+    
 }
-
+.title{
+    margin-top: 20px;
+}
 .form_control{
     margin-top : 50px;
     width: 300px;
