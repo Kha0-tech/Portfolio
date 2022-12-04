@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(7, 7, 41);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.form_control{
+    margin-top : 50px;
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    
+    border-radius: 5px;
+    border: none;
+}
+.todo_list{
+    margin-top: 2rem;
+    width: 300px;
+    background-color: aliceblue;
+    
+    
+}
+.todo{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 18px;
+    
+}
+.ri-edit-2-line{
+    margin-left: 10px;
+}
+.ri-save-line{
+    display: none;
+}
+.inputContentEl{
+    outline: none;
+    appearance: none;
+    border: none;
+    background-color: none;
+}
+
+
