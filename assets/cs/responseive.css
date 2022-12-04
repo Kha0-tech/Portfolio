@@ -97,6 +97,13 @@
     .inside-progress-bar{
         width: 120px;
     }
+    .toast_alert{
+        display: block;
+        font-size: 14px;
+    }
+    .toast_alert_btn{
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width : 433px) {
